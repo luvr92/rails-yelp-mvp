@@ -6,5 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 10.times do
-  Restaurant.create!(name: Faker::App.name,address: Faker::Address.city,phone: Faker::PhoneNumber.phone_number,category: Restaurant::CATEGORY.sample)
+  Restaurant.create!(name: Faker::App.name,address: Faker::Address.city,phone_number: Faker::PhoneNumber.phone_number,category: Restaurant::CATEGORY.sample)
 end
